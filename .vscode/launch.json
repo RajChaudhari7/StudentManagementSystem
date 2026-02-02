@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run JavaFX (MySQL)",
+      "request": "launch",
+      "mainClass": "com.sms.Main",
+      "vmArgs": "--module-path \"C:/Program Files/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml",
+      "classPaths": [
+        "${workspaceFolder}/lib/mysql-connector-j-8.0.33.jar"
+      ]
+    }
+  ]
+}
